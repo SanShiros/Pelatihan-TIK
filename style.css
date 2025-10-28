@@ -1,15 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    width: auto;
+}
+
+.container-tw {
+    border: 1px solid brown;
+    border-radius: 30px;
+    padding: 20px;
+    width: 600px;
+}
+
 .container-pp {
     margin-top:70px ;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    flex-direction: column;
 
-.container-tw {
-    border: 1px solid brown;
 }
 
 .container-txt {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,14 +38,43 @@
     height: 500px;
     width: auto;
     border-radius:30px;
+    border: 1px solid brown;
 }
 
 .btn-sapa {
-    margin-top: 20px;
+    color:brown;
+    background-color:  whitesmoke;
+    border: 1px solid brown ;
+    padding: 13px;
+    font-size: large;
+    border-radius: 10px;
+    margin: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-sapa:hover{
     color:whitesmoke;
-    background-color: brown;
+    background-color:  brown;
+}
+
+.a {
+    color:whitesmoke;
+    background-color:  brown;
     border: none;
     padding: 13px;
     font-size: large;
     border-radius: 10px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.a:hover{
+    color:brown;
+    background-color:  whitesmoke;
+    border: 1px solid brown ;
+}
+
+
+.container-btn {
+    display: flex;
 }
